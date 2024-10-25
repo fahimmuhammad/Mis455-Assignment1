@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Google Font 1 */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #45a049;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.gallery-p{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Flexbox for the services page */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Grid for the gallery page */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px; /* Adds space between grid items */
+    padding: 10px; /* Adds padding inside the container */
+    
+}
+
+.grid-container img {
+    width: 100%; /* Makes images responsive */
+    height: 200px; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: adds rounded corners to images */
+    justify-items: center;
+}
+
+
+h1, h2 {
+    font-family: 'Lobster', cursive; /* Google Font 2 */
+}
